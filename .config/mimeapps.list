@@ -1,0 +1,13 @@
+[Default Applications]
+image/jpeg=ristretto.desktop
+image/png=ristretto.desktop
+image/gif=ristretto.desktop
+image/bmp=ristretto.desktop
+image/webp=ristretto.desktop
+image/tiff=ristretto.desktop
+image/x-tga=ristretto.desktop
+image/vnd.adobe.photoshop=ristretto.desktop
+image/svg+xml=ristretto.desktop
+
+[Added Associations]
+text/markdown=org.xfce.mousepad.desktop;

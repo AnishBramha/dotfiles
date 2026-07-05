@@ -1,0 +1,87 @@
+/* ==========================================================================
+   ~/.config/gtklock/style.css
+   ========================================================================== */
+
+/* 1. Wallpaper Canvas Mapping */
+window {
+    background-image: url("/home/anish/Pictures/Library/Vista_Ultimate_2.png") !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+
+/* 2. The Translucent Aero Glass Frame */
+#avatar-frame {
+    padding: 8px !important;
+    border-radius: 12px !important;
+    border: 3px solid rgba(230, 242, 250, 0.85) !important;
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    
+    /* Mirror gloss gradient reflection */
+    background-image: linear-gradient(to bottom, 
+        rgba(255, 255, 255, 0.55) 0%, 
+        rgba(255, 255, 255, 0.15) 45%, 
+        rgba(0, 0, 0, 0.02) 50%, 
+        rgba(255, 255, 255, 0.1) 100%
+    ) !important;
+    
+    box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.5) !important;
+    margin-bottom: 12px !important;
+}
+
+/* The actual picture inside the glass border */
+#user-image {
+    border-radius: 4px !important;
+}
+
+/* 3. Username Label ("Martin") Styling */
+#user-label {
+    font-family: "Segoe UI", "Sans-Serif" !important;
+    font-size: 28px !important;
+    font-weight: 500 !important;
+    color: #ffffff !important;
+    margin-bottom: 24px !important;
+    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.8) !important;
+}
+
+/* 4. Input Cluster Layout */
+#input-box {
+    background: transparent !important;
+}
+
+/* Sharp, light gray password container box */
+entry#input {
+    background: #ffffff !important;
+    color: #1a1a1a !important;
+    font-size: 15px !important;
+    padding: 6px 10px !important;
+    border-radius: 0px !important;
+    border: 1px solid #7f9db9 !important;
+    box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.2) !important;
+    width: 220px !important;
+}
+
+/* 5. 3D Dimensional Submit Orb */
+button#input-button {
+    margin-left: 10px !important;
+    min-width: 32px !important;
+    min-height: 32px !important;
+    border-radius: 50% !important;
+    border: 1.5px solid #143b66 !important;
+    color: #ffffff !important;
+    font-size: 16px !important;
+    
+    background-image: linear-gradient(to bottom, 
+        #8ec5f7 0%, 
+        #3e8ed6 44%, 
+        #13539d 48%, 
+        #1e79d3 82%, 
+        #5faef2 100%
+    ) !important;
+    
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.4), inset 0px 1.5px 2px rgba(255, 255, 255, 0.6) !important;
+}
+
+
+
+

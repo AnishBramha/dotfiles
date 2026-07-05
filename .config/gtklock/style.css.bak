@@ -1,0 +1,61 @@
+/* Style the root layer window */
+window {
+    background-color: transparent;
+}
+
+/* Style the large clock element */
+#clock-label {
+    font-family: "SF Pro Display", "SF Pro", sans-serif;
+    font-size: 72px;
+    font-weight: 600;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.5);
+    margin-bottom: 5px;
+}
+
+/* Style the date descriptor text */
+#date-label {
+    font-family: "SF Pro Text", "SF Pro", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: #edf6fc;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 40px;
+}
+
+/* Style the password entry field to look clean and legible */
+entry {
+    /* Windows 7 natively utilizes Segoe UI for system text layers */
+    font-family: "SF Pro Text", sans-serif;
+    font-size: 14px;
+    
+    /* Tightened padding to match the slim profile in image_ba648c.png */
+    padding: 5px 8px; 
+    
+    /* Completely squared-off edges */
+    border-radius: 0px; 
+    
+    /* Crisp, dark-gray frame edge */
+    border: 1px solid #6d6d6d; 
+    
+    /* Solid opaque white container background */
+    background-color: #ffffff; 
+    color: #000000; 
+
+    /* Multi-layered shadow system: 
+       1. Inset top shadow to give the input field classic hardware depth 
+       2. Outer soft white/light-blue halo to cushion it against the wallpaper canvas */
+    box-shadow: inset 0px 1px 2px rgba(0, 0, 0, 0.2),
+                0px 0px 0px 1px rgba(255, 255, 255, 0.2),
+                0px 1px 3px rgba(0, 0, 0, 0.15);
+}
+
+/* Authentic Windows 7 Aero luminous light-blue focus state */
+entry:focus {
+    border: 1px solid #3c7fb1; 
+    box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.1),
+                0px 0px 5px rgba(100, 175, 230, 0.8);
+}
+
+
+
